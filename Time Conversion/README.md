@@ -27,7 +27,7 @@ A single string s that represents a time in 12-hour clock format (i.e.:hh:mm:ssA
 
 ## Constraints
 
--All input times are valid
+- All input times are valid
 
 ## Sample Input
 ```
