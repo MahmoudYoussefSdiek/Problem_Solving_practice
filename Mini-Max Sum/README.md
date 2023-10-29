@@ -41,7 +41,7 @@ Print two space-separated long integers denoting the respective minimum and maxi
 ```
 # Explanation
 
-The numbers are 1, 2, 3, , and 5. Calculate the following sums using four of the five integers:
+The numbers are 1, 2, 3, 4, and 5. Calculate the following sums using four of the five integers:
 
 1.Sum everything except 1, the sum is 2+3+4+5 = 14.\
 2.Sum everything except 2, the sum is 1+3+4+5 = 13.\
