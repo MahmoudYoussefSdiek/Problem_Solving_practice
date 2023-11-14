@@ -3,7 +3,7 @@ You will be given a list of 32 bit unsigned integers. Flip all the bits ($1\ →
 
 ## Example
 $n=9_{10}$\
-$9_{10}=1001_{2}$. We're working with 32 bits, so:
+$9_{10}=1001_{2}$. We're working with 32 bits, so:\
 $00000000000000000000000000001001_{2}=9_{10}$\
 $11111111111111111111111111110110_{2}=4294967286_{10}$\
 Return $4294967286$.
