@@ -30,18 +30,26 @@ function readLine() {
  */
 
 function countingSort(arr) {
-    // Find the maximum value in the array
-    let max_value = Math.max(...arr);
+    // // Find the maximum value in the array
+    // let max_value = Math.max(...arr);
 
-    // Allocate memory for the count array and initialize it to 0
-    let count_arr = new Array(max_value + 1).fill(0);
+    // // Allocate memory for the count array and initialize it to 0
+    // let count_arr = new Array(max_value + 1).fill(0);
 
-    // Count the number of occurrences of each element in the array
+    // // Count the number of occurrences of each element in the array
+    // for (let i = 0; i < arr.length; i++) {
+    //     count_arr[arr[i]]++;
+    // }
+
+    // return count_arr;
+
+    const count = Array(100).fill(0);
+
     for (let i = 0; i < arr.length; i++) {
-        count_arr[arr[i]]++;
+        count[arr[i]]++;
     }
 
-    return count_arr;
+    return count;
 }
 
 function main() {
