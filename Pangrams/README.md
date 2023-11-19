@@ -8,7 +8,7 @@ The string contains all letters in the English alphabet, so return pangram.
 
 # Function Description
 Complete the function pangrams in the editor below. It should return the string pangram if the input string is a pangram. Otherwise, it should return not pangram.
-pangrams has the following parameter(s):\
+pangrams has the following parameter(s):
 - string s: a string to test
 
 
@@ -22,7 +22,7 @@ A single line with string $s$.
 
 ## Constraints
 $0\ <\ length\ of\ s\ \leq\ 10^3$\
-Each character of $s$, $s[i]\ \epsilon\ \{a-z,A-Z,space\}$ 
+Each character of $s$, $s[i]\ \epsilon\ \[a-z,A-Z,space\]$ 
 
 
 ## Sample Input
