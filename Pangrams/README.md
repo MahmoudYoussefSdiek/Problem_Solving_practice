@@ -2,7 +2,7 @@
 A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
 
 # Example
-$s='The quick brown fox jumps over the lazy dog'$\
+$s\ =\ 'The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog'$\
 The string contains all letters in the English alphabet, so return pangram.
 
 
@@ -22,7 +22,7 @@ A single line with string $s$.
 
 ## Constraints
 $0\ <\ length\ of\ s\ \leq\ 10^3$\
-Each character of $s$, $s[i]\ \epsilon\ {a-z,A-Z,space}$ 
+Each character of $s$, $s[i]\ \epsilon\ \{a-z,A-Z,space\}$ 
 
 
 ## Sample Input
